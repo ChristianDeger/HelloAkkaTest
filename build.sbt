@@ -6,7 +6,8 @@ name := "HelloAkkaHttp"
 
 libraryDependencies ++= List(
   Library.scalaCheck % "test",
-  Library.scalaTest  % "test"
+  Library.scalaTest  % "test",
+  Library.akkaHttp
 )
 
 initialCommands := """|import de.heikoseeberger.helloakkahttp._""".stripMargin
